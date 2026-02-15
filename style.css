@@ -1,0 +1,142 @@
+/* Import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Applica il calcolo corretto a TUTTI gli elementi */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: url(images/bg.png) no-repeat center center / cover;
+    min-height: 100vh; /* Meglio min-height per evitare tagli su mobile */
+    width: 100%;
+    overflow-x: hidden; /* Sicurezza extra per prevenire lo scroll */
+}
+.contenitore{
+    padding: 20px 0;
+}
+.flex{
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+.img{
+    width:20%;
+}
+.logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.nome{
+    width:80%;
+    padding-left:20px;
+}
+.nome h1{
+    font-size:30px;
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;;
+}
+.tasti{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
+.cont{
+    text-align:center;
+    padding: 0 20px;
+}
+.link{
+        padding: 20px 40px;
+        background-color: #00ffbc;
+        color:#2b2b2b;
+        font-weight: 700;
+        font-size:1.5rem;
+        text-decoration:none;
+        border-radius:8px;
+        transition: all 0.5s ease;
+        width:100%;
+        text-align:center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.link:hover{
+        padding: 20px 40px;
+        background-color: #2b2b2b;
+        color:#00ffbc;
+        font-weight: 700;
+        font-size:1.5rem;
+        text-decoration:none;
+        border-radius:8px;
+         transition: all 0.5s ease;
+}
+h2{
+    font-size:1.5rem;
+    color:#2b2b2b;
+}
+.contact{
+      padding: 20px 40px;
+        background-color: #2b2b2b;
+        color:#f7f7f7;
+        font-weight: 700;
+        font-size:1.5rem;
+        text-decoration:none;
+        border-radius:8px;
+        transition: all 0.5s ease;
+        width:100%;
+        text-align:center;
+        border:1px solid #2b2b2b;
+}
+.contact:hover{
+        background-color: #00ffbc;
+        color:#2b2b2b;
+        border:1px solid #00ffbc;
+        border-radius:8px;
+        transition: all 0.5s ease;
+        width:100%;
+        text-align:center;
+}
+.share{
+    padding: 20px 40px;
+        background-color: transparent;
+        color:#2b2b2b;
+        font-weight: 700;
+        font-size:1.5rem;
+        text-decoration:none;
+        border-radius:8px;
+        transition: all 0.5s ease;
+        width:100%;
+        text-align:center;
+        border:1px solid #2b2b2b;
+}
+.share:hover{
+    padding: 20px 40px;
+        background-color: #2b2b2b;
+        color:#f7f7f7;
+        font-weight: 700;
+        font-size:1.5rem;
+        text-decoration:none;
+        border-radius:8px;
+        transition: all 0.5s ease;
+        width:100%;
+        text-align:center;
+        border:1px solid #2b2b2b;
+}
+.sotto{
+    margin-bottom:20px;
+}
+.contattaci{
+    padding: 0 20px;
+    margin-top: 50px;
+    text-align:center;
+}
+.affianco{
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+}
