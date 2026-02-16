@@ -57,7 +57,7 @@ body, html {
         background-color: #00ffbc;
         color:#2b2b2b;
         font-weight: 700;
-        font-size:1.5rem;
+        font-size:1.25rem;
         text-decoration:none;
         border-radius:8px;
         transition: all 0.5s ease;
@@ -70,7 +70,7 @@ body, html {
         background-color: #2b2b2b;
         color:#00ffbc;
         font-weight: 700;
-        font-size:1.5rem;
+        font-size:1.25rem;
         text-decoration:none;
         border-radius:8px;
          transition: all 0.5s ease;
@@ -84,7 +84,7 @@ h2{
         background-color: #2b2b2b;
         color:#f7f7f7;
         font-weight: 700;
-        font-size:1.5rem;
+        font-size:1.25rem;
         text-decoration:none;
         border-radius:8px;
         transition: all 0.5s ease;
@@ -106,7 +106,7 @@ h2{
         background-color: transparent;
         color:#2b2b2b;
         font-weight: 700;
-        font-size:1.5rem;
+        font-size:1.25rem;
         text-decoration:none;
         border-radius:8px;
         transition: all 0.5s ease;
@@ -119,7 +119,7 @@ h2{
         background-color: #2b2b2b;
         color:#f7f7f7;
         font-weight: 700;
-        font-size:1.5rem;
+        font-size:1.25rem;
         text-decoration:none;
         border-radius:8px;
         transition: all 0.5s ease;
