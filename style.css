@@ -33,7 +33,7 @@ body, html {
 }
 .nome{
     width:80%;
-    padding-left:20px;
+    margin-left:20px;
 }
 .nome h1{
     font-size:30px;
@@ -53,7 +53,7 @@ body, html {
     padding: 0 20px;
 }
 .link{
-        padding: 20px 40px;
+        padding: 12px 40px;
         background-color: #00ffbc;
         color:#2b2b2b;
         font-weight: 700;
@@ -66,7 +66,7 @@ body, html {
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 .link:hover{
-        padding: 20px 40px;
+        padding: 12px 40px;
         background-color: #2b2b2b;
         color:#00ffbc;
         font-weight: 700;
@@ -80,7 +80,7 @@ h2{
     color:#2b2b2b;
 }
 .contact{
-      padding: 20px 40px;
+      padding: 12px 40px;
         background-color: #2b2b2b;
         color:#f7f7f7;
         font-weight: 700;
@@ -102,7 +102,7 @@ h2{
         text-align:center;
 }
 .share{
-    padding: 20px 40px;
+    padding: 12px 40px;
         background-color: transparent;
         color:#2b2b2b;
         font-weight: 700;
