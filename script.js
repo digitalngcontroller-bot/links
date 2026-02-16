@@ -2,7 +2,7 @@ async function condividiPagina() {
     // Dati da condividere
     const shareData = {
         title: 'Next Gen Controller',
-        text: 'Guarda la nuova frontiera dei controller!',
+        text: 'Ecco la nuova frontiera dei controller! ->',
         url: window.location.href // Prende l'URL attuale della pagina
     };
 
